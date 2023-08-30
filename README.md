@@ -37,6 +37,7 @@ None
 
 
 - [File Structure](./mates/docs/structure.md)
+- [Stage 1](./mates/docs/stage1.md)
 - [Planned Updates](./mates/docs/extras.md)
 
 ## Donations
