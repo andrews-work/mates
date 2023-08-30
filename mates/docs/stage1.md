@@ -12,8 +12,9 @@ In this stage of development, the focus is on basic features of account manageme
 
 - [Features Implemented](#features-implemented)
 - [Files and Directories Added/Modified](#files-and-directories-addedmodified)
-- [SignUp](#signup)
-- [Login](#login)
+- [Part 1](#part-1---Basic-Structure)
+- [Part 2](#part-2---sign-up)
+- [Part 3](#part-3---login)
 - [Logout](#logout)
 - [Delete Account](#delete-account)
 - [Add Friend](#add-friend)
@@ -32,7 +33,11 @@ In this stage of development, the focus is on basic features of account manageme
 
 ![file structure](../images/filestage1.png)
 
-## SignUp
+## Part 1 - Basic Structure
+
+
+
+## Part 2 - Sign Up
 
 1. Capture User Input:
     - Use JavaScript to select the relevant input fields (e.g., username, password) from the sign-up form.
@@ -60,7 +65,7 @@ In this stage of development, the focus is on basic features of account manageme
     - Send an appropriate response back to the client indicating success or failure.
     - You might send a JSON response containing a message or a status code.
 
-## Login
+## Part 2 - Login
 
 1. Capture User Input:
     - Similar to sign-up, select the login form's input fields and capture the entered values.    
@@ -110,12 +115,14 @@ None
 
 
 Stage 1: User Account Management
+
 1. Set Up the Basic Structure
 
 Create the necessary directories: mates, components, account, accountSettings, authentication, back, front, pages, scripts, and style.
 Create the account.html page within the pages directory.
 Create the accountSettings.js, addFriend.js, removeFriend.js, login.js, signUp.js, logout.js, and deleteAccount.js files in their respective locations.
 Include basic HTML structure in account.html and link the necessary CSS and JavaScript files.
+
 2. Implement User Sign-Up
 
 In signUp.js, add event listeners to the sign-up form's submit button.
@@ -124,6 +131,7 @@ Validate the input data (e.g., check for empty fields, strong password).
 Send a POST request to the server with the user's sign-up data.
 Implement server-side logic in signup.js to handle the sign-up process.
 Update the database (e.g., using SQL queries) to store the new user's information.
+
 3. Implement User Login
 
 In login.js, add event listeners to the login form's submit button.
@@ -131,11 +139,13 @@ Capture user input (username, password) and validate it.
 Send a POST request to the server with the user's login data.
 Implement server-side logic in login.js to verify the user's credentials.
 If the credentials are correct, set up a session/cookie to maintain the user's login status.
+
 4. Implement User Logout
 
 In logout.js, add event listeners to the logout button.
 Send a request to the server to clear the session/cookie.
 Update the front-end to reflect the user's logged-out status.
+
 5. Implement Account Deletion
 
 In deleteAccount.js, add event listeners to the delete account button.
@@ -143,6 +153,7 @@ Display a confirmation prompt to ensure the user wants to delete the account.
 If confirmed, send a request to the server to delete the user's account.
 Update the database to remove the user's information.
 Clear the session/cookie to log the user out.
+
 6. Implement Adding and Removing Friends
 
 In addFriend.js, add event listeners to the "Add Friend" button.
@@ -151,6 +162,7 @@ Validate the input and check if the friend's username exists.
 Send a request to the server to add the friend to the user's list.
 In removeFriend.js, add event listeners to the "Remove Friend" button.
 Send a request to the server to remove the friend from the user's list.
+
 7. Testing and Debugging
 
 Test each functionality individually to ensure they work as expected.
