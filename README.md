@@ -1,4 +1,4 @@
-![mates](./root/public/images/mates.png)
+![mates](./mates/images/mates.png)
 
 # End-to-End Encrypted Chat App
 
