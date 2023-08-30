@@ -35,7 +35,8 @@ In this stage of development, the focus is on basic features of account manageme
 
 ## Part 1 - Basic Structure
 
-
+1. System Design - implement directory + file structure 
+2. Basic html + css for sign up, login, account settings (logout + delete account), messageDashboard
 
 ## Part 2 - Sign Up
 
@@ -114,31 +115,7 @@ None
 
 
 
-Stage 1: User Account Management
 
-1. Set Up the Basic Structure
-
-Create the necessary directories: mates, components, account, accountSettings, authentication, back, front, pages, scripts, and style.
-Create the account.html page within the pages directory.
-Create the accountSettings.js, addFriend.js, removeFriend.js, login.js, signUp.js, logout.js, and deleteAccount.js files in their respective locations.
-Include basic HTML structure in account.html and link the necessary CSS and JavaScript files.
-
-2. Implement User Sign-Up
-
-In signUp.js, add event listeners to the sign-up form's submit button.
-Use JavaScript to capture user input from the form (e.g., username, password).
-Validate the input data (e.g., check for empty fields, strong password).
-Send a POST request to the server with the user's sign-up data.
-Implement server-side logic in signup.js to handle the sign-up process.
-Update the database (e.g., using SQL queries) to store the new user's information.
-
-3. Implement User Login
-
-In login.js, add event listeners to the login form's submit button.
-Capture user input (username, password) and validate it.
-Send a POST request to the server with the user's login data.
-Implement server-side logic in login.js to verify the user's credentials.
-If the credentials are correct, set up a session/cookie to maintain the user's login status.
 
 4. Implement User Logout
 
