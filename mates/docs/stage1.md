@@ -13,50 +13,7 @@ In this stage of development, the focus is on [brief description of the main obj
 
 ## Files and Directories Added/Modified
 
-/mates
-    /components
-        /account
-            /accountSettings
-                /back
-                    addFriend.js
-                    removeFriend.js
-                /front
-                    /pages
-                        account.html 
-                    /style
-                        account.css
-            /authentication
-                /back
-                    login.js
-                    signUp.js
-                    logout.js
-                    deleteAccount.js
-                /front
-                    /pages
-                        login.html
-                        signUp.html
-                    /scripts
-                        login.js
-                        signUp.js
-                        logout.js
-                        deleteAccount.js
-                    /style
-                        login.css
-                        signUp.css
-            /encryption
-                encryption.js
-                decryption.js
-                key.js
-                /utils
-                    encryptionUtils.js
-    /database 
-        account.sql (storing user login)
-    /images (logo + stuff?)
-    index.html
-    server.js
-    /tests
-    /utils
-readMe.md
+![file structure](../images/filestage1.png)
 
 ## SignUp
 
