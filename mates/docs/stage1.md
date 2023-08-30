@@ -1,6 +1,6 @@
 ## Stage 1 - Account Management
 
-In this stage of development, the focus is on [brief description of the main objectives of this stage].
+In this stage of development, the focus is on creating an account, logging in, adding and deleting friends and deleting your account. 
 
 ## Features Implemented
 
@@ -32,10 +32,6 @@ In this stage of development, the focus is on [brief description of the main obj
 
 ## Remove friend
 
-## Screenshots
-
-![Screenshot 1](./screenshots/screenshot1.png)
-![Screenshot 2](./screenshots/screenshot2.png)
 
 ## Learn More
 
@@ -43,9 +39,7 @@ For more information about [specific topic], refer to [documentation link].
 
 ## Contributors
 
-- [Your Name]
-- [Contributor 1]
-- [Contributor 2]
+None
 
 ## License
 
