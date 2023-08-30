@@ -1,4 +1,4 @@
-![mates](./root/public/images/alien-icon.png)
+![mates](./root/public/images/mates.png)
 
 # End-to-End Encrypted Chat App
 
