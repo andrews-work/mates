@@ -1,0 +1,61 @@
+
+:root {
+    --1: black;
+    --2: white;
+
+    --f1: 5em;
+    --f2: 2em;
+    --f3: 1em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 420px;
+    height: 80%;
+    overflow-y: none;
+}
+
+h1 {
+    font-size: var(--f1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 10vh;
+    margin: 10vh;
+}
+
+p {
+    width: 90%;
+    font-size: var(--f2);
+    margin: 3vh 0;
+    text-align: left;
+}
+
+
+a {
+    margin: 10vh 0;
+    color: var(--1);
+    font-size: var(--f2);
+}
+
+a:visited {
+    color: var(--1);
+    font-size: var(--f2);
+}
+
