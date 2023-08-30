@@ -1,7 +1,5 @@
 ![mates](./mates/images/mates.png)
 
-# End-to-End Encrypted Chat App
-
 This is an end-to-end encrypted chat app that prioritizes security and privacy.
 
 ## Planned Updates
