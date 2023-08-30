@@ -1,6 +1,6 @@
 
 const User = require('../models/userModel');
-const registerValidator = require('../validation/accountValidation').registerValidator;
+const registerValidator = require('../../../../root/src/app/Account/validation/accountValidation').registerValidator;
 
 exports.userCreate = function(req, res) {
   const newUser = new User({
