@@ -1,6 +1,23 @@
 ## Stage 1 - Account Management
 
-In this stage of development, the focus is on creating an account, logging in, adding and deleting friends and deleting your account. 
+In this stage of development, the focus is on basic features of account management:
+    - Sign Up
+    - Log in
+    - Logout
+    - Delete Account
+    - Add Friend
+    - Remove Friend
+
+## Table of Contents
+
+- [Features Implemented](#features-implemented)
+- [Files and Directories Added/Modified](#files-and-directories-addedmodified)
+- [SignUp](#signup)
+- [Login](#login)
+- [Logout](#logout)
+- [Delete Account](#delete-account)
+- [Add Friend](#add-friend)
+- [Remove Friend](#remove-friend)
 
 ## Features Implemented
 
@@ -17,25 +34,28 @@ In this stage of development, the focus is on creating an account, logging in, a
 
 ## SignUp
 
+<!-- Add detailed information about the SignUp feature -->
 
 ## Login
 
+<!-- Add detailed information about the Login feature -->
 
 ## Logout
 
+<!-- Add detailed information about the Logout feature -->
 
-## Delete account
+## Delete Account
 
+<!-- Add detailed information about the Delete Account feature -->
 
-## Add friend
+## Add Friend
 
+<!-- Add detailed information about the Add Friend feature -->
 
-## Remove friend
+## Remove Friend
 
+<!-- Add detailed information about the Remove Friend feature -->
 
-## Learn More
-
-For more information about [specific topic], refer to [documentation link].
 
 ## Contributors
 
