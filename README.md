@@ -36,12 +36,8 @@ None
 ## Documentation
 
 
-- [File Structure](./root/docs/process.md)
-- [User Authentication](./user-authentication.md)
-- [End-to-End Encryption](./encryption.md)
-- [Private Messaging](./private-messaging.md)
-- [Local Message Storage](./local-storage.md)
-- [Planned Updates](./planned-updates.md)
+- [File Structure](./mates/docs/structure.md)
+- [Planned Updates](./mates/docs/extras.md)
 
 ## Donations
 
